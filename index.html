@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrowbreeze - Rent Anything, Anytime</title>
+    
+    <!-- Correct Font Awesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <a href="#" style="display: flex; align-items: center;">
+            <img src="image/logos.png" class="logo" alt="BorrowBreeze Logo" style="width: 150px; height: auto;">
+          </a>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Fashion.html">Fashion</a></li>
+                <li><a href="Camera.html">Camera</a></li>
+                <li><a href="Electronics.html">Electronics</a></li>
+                <li><a href="Accessories.html">Accessories</a></li>
+                <li><a href="HomeEssential.html">Home Essentials</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <!-- <i class="close-btn" onclick="toggleNavbar()">&times;</i> Close Button -->
+            </ul>
+        
+        <div id="mobile">
+            <i class="menu-icon" onclick="toggleNavbar()">&#9776;</i> <!-- Menu Icon -->
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h4>Borrow Breeze</h4>
+        <h2>Super Value Deals</h2>
+        <h1>On All Products</h1>
+        <p>Save more by renting more! Hurry up for exclusive deals!</p>
+        <button>Rent Now</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="image/free1.jpeg" alt="Free Shipping" style="width: 120px; height: 120px;">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/onlines.avif" alt="Online Orders" style="width: 120px; height: 120px;">
+            <h6>Online Orders</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/savemoney.jpg" alt="Save Money" style="width: 120px; height: 120px;">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/happyy.jpg" alt="Happy Sell" style="width: 120px; height: 120px;">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/supportt.jpg" alt="Support" style="width: 120px; height: 120px;">
+            <h6>Support</h6>
+        </div>
+    </section>
+
+   <!-- Product Section -->
+<section id="Product1" class="section-p1">
+    <h2 class="section-heading">Most Rental Products</h2>
+    <div class="pro-container">
+        <!-- Product Template -->
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/soul.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/soul1.webp" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>The Souled Store</span>
+                <h5>Men Graphic Opaque Printed Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 700 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat the same product for demonstration -->
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/speaker1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/speaker2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>boAt Bluetooth Speaker</span>
+                <h5>Wireless Mic, Upto 8 hrs Playback</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 1500 rs</h4>
+                <h5>Available rental hours: 3hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/womendress1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/womendress2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Women Georgette Dress</span>
+                <h5>With Full Dupatta Set size:L</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 750 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/set1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/set2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Praahi Lifestyle Tea Cup Set</span>
+                <h5>with Kettle & Serving Tray,Microwave Safe</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 300 rs</h4>
+                <h5>Available rental hours: 1hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/kettle.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/kettle1.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span> Double Layered Cool Touch Outer Body</span>
+                <h5>Havells Electric Kettle</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 100 rs</h4>
+                <h5>Available rental hours: 3hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/induction.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/induction2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Cooktop, Black 1900 W</span>
+                <h5>Havells Insta Cook Induction</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 500 rs</h4>
+                <h5>Available rental hours: 1hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/fancy1.avif" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/fancy2.avif" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Women Embellished Lehenga </span>
+                <h5>Package contains: 3 top, 1 lehenga, 1 skirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 500 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/camera1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/camera2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Mirrorless Digital SLR Camera</span>
+                <h5>16-50 mm & 55-210 mm Zoom Lenses</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 5000 rs</h4>
+                <h5>Available rental hours: 1hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/chair1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/chair2.webp" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Velvet Floral Lounge Chair</span>
+                <h5>Blush Pink</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 5000 rs</h4>
+                <h5>Available rental hours: 3hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/gadda1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/gadda2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Cotton Box Mattress </span>
+                <h5>Black  Mattress with Pillow</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 700 rs</h4>
+                <h5>Available rental hours: 8hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/men1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/men2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Men Printed Shirt</span>
+                <h5>Half Sleeve Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 200 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/girls1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/girls2.webp" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Girls Balloon Shape Flower Applique Party Dress</span>
+                <h5>color: Pink and size: 11-12 Y </h5>
+                
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 300 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="banner" class="section-m1">
+    <h4>Services</h4>
+    <h2 class="offer-text">Up to <span>70% off</span> - ON All The Crockeries And Home Essentials</h2>
+    <button class="normal">Explore More</button>
+</section>
+
+
+<section id="Product1" class="section-p1">
+    <h2 class="section-heading">New Arrivals</h2>
+    <div class="pro-container">
+        <!-- Product Template -->
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/soul1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/soul2.webp" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>The Souled Store</span>
+                <h5>Men Graphic Opaque Printed Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 700 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat the same product for demonstration -->
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/speaker1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/speaker2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>boAt Bluetooth Speaker</span>
+                <h5>Wireless Mic, Upto 8 hrs Playback</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 1500 rs</h4>
+                <h5>Available rental hours: 3hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/womendress1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/womendress2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Women Georgette Dress</span>
+                <h5>With Full Dupatta Set size:L</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 750 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/set1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/set2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Praahi Lifestyle Tea Cup Set</span>
+                <h5>with Kettle & Serving Tray,Microwave Safe</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 300 rs</h4>
+                <h5>Available rental hours: 1hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/fancy1.avif" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/fancy2.avif" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Women Embellished Lehenga </span>
+                <h5>Package contains: 3 top, 1 lehenga, 1 skirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 500 rs</h4>
+                <h5>Available rental hours: 2hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/camera1.jpg" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/camera2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Mirrorless Digital SLR Camera</span>
+                <h5>16-50 mm & 55-210 mm Zoom Lenses</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 5000 rs</h4>
+                <h5>Available rental hours: 1hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/chair1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/chair2.webp" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Velvet Floral Lounge Chair</span>
+                <h5>Blush Pink</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 5000 rs</h4>
+                <h5>Available rental hours: 3hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="image-slider">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+                <div class="slides">
+                    <div class="slide"><img src="image/gadda1.webp" alt="Product Image 1"></div>
+                    <div class="slide"><img src="image/gadda2.jpg" alt="Product Image 2"></div>
+                </div>
+            </div>
+            <div class="des">
+                <span>Cotton Box Mattress </span>
+                <h5>Black  Mattress with Pillow</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4 style="font-size: 14px;">Rental price: 700 rs</h4>
+                <h5>Available rental hours: 8hr</h5>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sm-banner" class="section-p1">
+    <div class="banner-box">
+        <h4 style="font-size: 18px;">Crazy Deals</h4>
+        <h2 style="font-size: 18px;">Get 30% off on each rental product</h2>
+        <span>The best classic dress is on rent at Borrow Breeze</span>
+        <button class="white">Learn More</button>
+      </div>
+      
+
+      <div class="banner-box  banner-box2">
+        <h4 style="font-size: 18px;">Crazy Deals</h4>
+        <h2 style="font-size: 18px;">Upcoming Collection</h2>
+        <span>The best classic dress is on rent at Borrow Breeze</span>
+        <button class="white">Learn More</button>
+      </div>
+
+      <section id="banner3">
+        <div class="banner-box">
+            <h4>Seasonal Sale</h4>
+            <h2 style="color:whitesmoke;">Accessories Collection</h2>
+        </div>
+    
+        <div class="banner-box banner-box2">
+            <h4>Seasonal Sale</h4>
+            <h2 style="color: whitesmoke;">New Footwear Collection</h2>
+        </div>
+    
+        <div class="banner-box banner-box3">
+            <h4>Seasonal Sale</h4>
+            <h2 style="color: whitesmoke;">T-Shirts</h2>
+        </div>
+    </section>
+    
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up From Here</h4>
+            <p>
+                E-mail updates about our latest shop and 
+                <span style="color: #fcca57;">special offers</span>.
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+  </section>
+  
+  <footer class="section-p1">
+   <div class="col">
+    <img src="image/logoo.jpg" alt="logo img" width="200" height="auto">
+   <h4>Contact</h4>
+   <p style="font-size: 14px;"><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+<p style="font-size: 14px;"><strong>Phone Number:</strong> +01 2222 365 / (+91)9461919253</p>
+<p style="font-size: 14px;"><strong>Hours:</strong> 10:00-18:00, Mon-Sat</p>
+
+   <div class="follow">
+    <h4> Follow Us</h4>
+    <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+   </div>
+   </div>
+   
+   <div class="col"> 
+    <h4>About</h4>
+    <a href="#"> About us</a>
+    <a href="#"> Delivery Information</a>
+    <a href="#"> Privacy Policy</a>
+    <a href="#"> Terms & Condition</a>
+    <a href="#"> Contact us</a>
+   </div>
+
+   <div class="col"> 
+    <h4>My Account</h4>
+    <a href="#"> Sign In </a>
+    <a href="#"> View Cart</a>
+    <a href="#"> My Wishlist</a>
+    <a href="#"> Track My Order</a>
+    <a href="#"> Help</a>
+   </div>
+   <div class="col install">
+    <h4>Install App</h4>
+    <p style="font-size: 14px;">From App store or Google Play</p>
+    <div class="row">
+        <img src="image/app.jpg" alt="">
+        <img src="image/play.jpg" alt="">
+    </div>
+    <p style="font-size: 14px;">Secured Payment Gateways</p>
+    <img src="image/pay.png" alt="">
+   </div>
+   <div class="copyright">
+    <p>© 2025, Tech2 etc - HTML CSS Ecommerce Template</p>
+
+   </div>
+  </footer>
+
+
+    
+</body>
+</html>   

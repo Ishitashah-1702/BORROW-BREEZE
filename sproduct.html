@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrowbreeze - Rent Anything, Anytime</title>
+    
+    <!-- Correct Font Awesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <a href="#"><img src="Screenshot 2024-11-09 172802.png" class="logo" alt="BorrowBreeze Logo" style="width: 150px; height: 150px;"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active"  href="Fashion.html">Fashion</a></li>
+                <li><a href="Camera.html">Camera</a></li>
+                <li><a href="Electronics.html">Electronics</a></li>
+                <li><a href="Furniture.html">Furniture</a></li>
+                <li><a href="HomeEssential.html">Home Essentials</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <i class="close-btn" onclick="toggleNavbar()">&times;</i> <!-- Close Button -->
+            </ul>
+        </div>
+        <div id="mobile">
+            <i class="menu-icon" onclick="toggleNavbar()">&#9776;</i> <!-- Menu Icon -->
+        </div>
+    </section>
+    <section id="prodetails" class="section-p1">
+      <!-- Product Image Section -->
+      <div class="single-pro-image">
+        <!-- Main Image -->
+        <img src="soul.webp" style="width: 60%; height: auto; margin: 0 auto; display: block;" id="MainImg" alt="Main Product Image">
+        
+        <!-- Small Images -->
+        <div class="small-img-group" style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
+          <div class="small-img-col" style="flex: 1; text-align: center; max-width: 100px;">
+            <img src="soul1.webp" style="width: 100%; height: auto; object-fit: cover;" class="small-img" alt="Product Image 1">
+          </div>
+          <div class="small-img-col" style="flex: 1; text-align: center; max-width: 100px;">
+            <img src="soul2.webp" style="width: 100%; height: auto; object-fit: cover;" class="small-img" alt="Product Image 2">
+          </div>
+          <div class="small-img-col" style="flex: 1; text-align: center; max-width: 100px;">
+            <img src="soul3.webp" style="width: 97%; height: auto; object-fit: cover;" class="small-img" alt="Product Image 3">
+          </div>
+        </div>
+      </div>
+      <div class="single-pro-details">
+        <h6 style="font-size: 16px;">Fashion / T-Shirt</h6>
+        <h4>Men Graphic Opaque Printed Shirt(Size L)</h4>
+        <h2 style="font-size: 30px;">Rental Price: 400 Rs</h2>
+
+    
+        <input type="number" id="quantity" value="1" >
+    
+        <!-- Add to Cart Button -->
+        <button style="padding: 10px 20px; background-color:#088175; color: #fff; border: none; cursor: pointer;">
+          Add To Cart
+        </button>
+    
+        <!-- Product Description -->
+        <h4 style="margin-top: 20px;">Product Details</h4>
+        <p style="line-height: 1.6; color: #555;">
+          The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton. 
+          This classic fit preshrunk jersey knit provides unmatched comfort with each wear. 
+          Featuring a taped neck and shoulders, and a seamless double-needle collar, it offers ultimate comfort in a head-turning package. 
+          Available in a range of colors, this T-shirt is perfect for any occasion.
+        </p>
+      </div>
+
+    </section>
+  
+      
+<section id="newsletter" class="section-p1">
+    <div class="newstext">
+        <h4>Sign Up From Here</h4>
+        <p>
+            E-mail updates about our latest shop and 
+            <span style="color: #fcca57;">special offers</span>.
+        </p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your E-mail address">
+        <button class="normal">Sign Up</button>
+    </div>
+</section>
+
+  <footer class="section-p1">
+   <div class="col">
+    <img src="logoo.jpg" alt="logo img" width="200" height="auto">
+   <h4>Contact</h4>
+   <p style="font-size: 14px;"><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+<p style="font-size: 14px;"><strong>Phone Number:</strong> +01 2222 365 / (+91)9461919253</p>
+<p style="font-size: 14px;"><strong>Hours:</strong> 10:00-18:00, Mon-Sat</p>
+
+   <div class="follow">
+    <h4> Follow Us</h4>
+    <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+   </div>
+   </div>
+   
+   <div class="col"> 
+    <h4>About</h4>
+    <a href="#"> About us</a>
+    <a href="#"> Delivery Information</a>
+    <a href="#"> Privacy Policy</a>
+    <a href="#"> Terms & Condition</a>
+    <a href="#"> Contact us</a>
+   </div>
+
+   <div class="col"> 
+    <h4>My Account</h4>
+    <a href="#"> Sign In </a>
+    <a href="#"> View Cart</a>
+    <a href="#"> My Wishlist</a>
+    <a href="#"> Track My Order</a>
+    <a href="#"> Help</a>
+   </div>
+   <div class="col install">
+    <h4>Install App</h4>
+    <p style="font-size: 14px;">From App store or Google Play</p>
+    <div class="row">
+        <img src="app.jpg" alt="">
+        <img src="play.jpg" alt="">
+    </div>
+    <p style="font-size: 14px;">Secured Payment Gateways</p>
+    <img src="pay.png" alt="">
+   </div>
+   <div class="copyright">
+    <p>© 2025, Tech2 etc - HTML CSS Ecommerce Template</p>
+
+   </div>
+  </footer>
+
+  <script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+  
+    // Loop through each small image and attach a click event listener
+    for (let i = 0; i < smallimg.length; i++) {
+      smallimg[i].onclick = function () {
+        MainImg.src = smallimg[i].src; // Set the main image source to the clicked small image source
+      };
+    }
+  </script>
+  
+    <script src="script.js"></script>
+</body>
+</html>   
